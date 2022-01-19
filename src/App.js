@@ -24,9 +24,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="Menu" element={<Menu />} />
-          <Route path="About" element={<About />} />
-          <Route path="Button" element={<Button />} />
+          <Route path="menu" element={<Menu />} />
+          <Route path="about" element={<About />} />
+          <Route path="reservation-form" element={<Form />} />
         </Route>
       </Routes>
     </BrowserRouter>
